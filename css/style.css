@@ -1,0 +1,58 @@
+/* PALETA DE COLORES
+color principal: 
+color secunsario: #EFD09E
+fondo primario: #D2D8B3
+fondo secundario: #90A9B7
+resaltar: #272727
+*/
+body {
+  font-family: sans-serif;
+  margin: 0;
+  /* HEADER */
+  /* FOOTER */
+  /* MAIN */ }
+  body header {
+    display: flex;
+    min-height: 70px;
+    background-color: #90A9B7;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; }
+    body header a {
+      text-decoration: none;
+      color: black; }
+    body header .logo {
+      display: flex;
+      align-items: center; }
+      body header .logo img {
+        height: 50px;
+        margin-right: 10px; }
+    body header nav a {
+      font-weight: 60;
+      padding-right: 10px; }
+      body header nav a .hover {
+        color: #FFFFFF; }
+    @media (max-width: 700px) {
+      body header header {
+        flex-direction: column; }
+      body header nav {
+        padding: 10px 0px; } }
+  body footer {
+    background: #272727;
+    height: auto;
+    width: 100%;
+    font-family: open sans;
+    color: #FFFFFF; }
+    body footer .contenido-footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center; }
+  body main {
+    background-color: #D4AA7D; }
+    body main #peluq-inicio {
+      size: 100%; }
+    body main .ver-mas {
+      background-color: black;
+      color: white; }
