@@ -14,7 +14,7 @@ body {
   body header {
     display: flex;
     min-height: 70px;
-    background-color: #90A9B7;
+    background-color: black;
     justify-content: space-between;
     align-items: center;
     padding: 10px; }
@@ -38,7 +38,7 @@ body {
       body header nav {
         padding: 10px 0px; } }
   body footer {
-    background: #272727;
+    background: black;
     height: auto;
     width: 100%;
     font-family: open sans;
