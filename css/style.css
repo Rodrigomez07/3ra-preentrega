@@ -8,12 +8,13 @@ resaltar: #272727
 body {
   font-family: sans-serif;
   margin: 0;
-  padding: 0; 
-      }
+  /* HEADER */
+  /* FOOTER */
+  /* MAIN */ }
   body header {
     display: flex;
     min-height: 70px;
-    background-color: black;
+    background-color: #90A9B7;
     justify-content: space-between;
     align-items: center;
     padding: 10px; }
@@ -49,10 +50,7 @@ body {
       flex-direction: column;
       text-align: center; }
   body main {
-    background-color: #968b7c;
-            height: 100%;
-            width: 100%;
-         }
+    background-color: #968b7c; }
     body main #peluq-inicio {
       size: 100%; }
     body main .ver-mas {
