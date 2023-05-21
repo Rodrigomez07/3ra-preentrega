@@ -6,55 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SERVICIO</title>
     <link rel="shortcut icon" href="../recursos/pelu-icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
-        <a href="../index.html" class="logo">
-            <img src="../recursos/pelu-icon.png" alt="logo peluqueria">
-            <h2 class="logo-nombre">PELUQUERIA</h2>
-        </a>
-        <nav>
-            
-            <a href="../index.html">INICIO</a>
-            <a href="./servicios.html">SERVICIOS</a>
-            <a href="./productos.html">PRODUCTOS</a>
-            <a href="./nosotros.html">NOSOTROS</a>
-            <a href="./contacto.html">CONTACTO</a>
-            
-         </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">MALDITO STYLO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <main>
-        <h1>SERVICIOS</h1>
-        <h2>LAVADO</h2>
-        <p class="col">El primero de los servicios, el más importante.
-        Lavarte el cabello previo a un corte o peinado y/o luego de una coloración: hace al inicio y/o la finalización perfecta de tu experiencia.
-        Contamos con las mejores manos en nuestro equipo y una amplia variedad de marcas Premium que te garantizan un momento único.</p>
-        <a href="#" class="ver-mas">MÁS INFORMACION</a>
-            <img src="https://www.contextotucuman.com/uploads/2020/02/17/43372_11.jpg" alt="Imagen lavado de babello">
-       
-        <h2>CORTES</h2>
-        <p>Tijeras, máquinas, varios filos, precisión, técnica y sobre todo un estilo único hacen fundamental el corte.
-        ¡Nuestro equipo de profesionales podrá asesorarte y hacer lucir tu pelo con el look ideal!</p>
-        <a href="#" class="ver-mas">MÁS INFORMACION</a>
-        <img src="https://aws.glamour.mx/prod/designs/v1/assets/1170x614/216724.jpg" alt="imagen corte de cabello">
+        <section class="nosotros my-5">
+            <h2 class="text-center my-5">Nuestros Servicios</h2>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div >
+                        <div class="card text-center">
+                            <img src="https://noticias.iruya.com/newnex/images/stories/bises/sociedad/salud/lavado_pelo.jpg" class="card-img-top" alt="imagen de lavado de cabello">
+                            <div class="card-body">
+                              <h5 class="card-title">Lavado</h5>
+                              <p class="card-text">El primero de los servicios, el más importante. Lavarte el cabello previo a un corte o peinado y/o luego de una coloración: hace al inicio y/o la finalización perfecta de tu experiencia.</p>
+                              <a href="#" class="btn btn-primary text-center">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
 
-        <h2>PEINADOS</h2>
-        <P>Existe una amplia forma de llegar a tu peinado, Brushing, planchitas, ondas, y muchos más.</P>
-        <a href="#" class="ver-mas">MÁS INFORMACION</a>
-        <img src="https://image.freepik.com/foto-gratis/peluqueria-femenina-haciendo-peinado-mujer-morena-salon-belleza_176420-4467.jpg" alt="imagen peinado">
+                    <div >
+                        <div class="card text-center">
+                            <img src="https://tahecosmetics.com/trends/wp-content/uploads/2023/03/cortes-pelo-hombre-2023.jpg" class="card-img-top" alt="imagen de corte de babello clasico">
+                            <div class="card-body">
+                              <h5 class="card-title">Corte</h5>
+                              <p class="card-text">Tijeras, máquinas, varios filos, precisión, técnica y sobre todo un estilo único hacen fundamental el corte.</p>
+                              <a href="#" class="btn btn-primary text-center">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
 
-        <h2>COLORACION</h2>
-        <p>Te asesoramos de una manera minuciosa para poder aconsejarte sobre qué es lo que tu cabello necesita. Cuáles son los pasos que llevara tu pelo para llegar al objetivo que deseas. Nuestra misión fundamental es mantener tu pelo sano y que luzca intacto, garantizamos tu felicidad absoluta.</p>
-        <a href="#" class="ver-mas">MÁS INFORMACION</a>
-        <img src="https://mui.today/__export/1605575607242/sites/mui/img/2020/11/16/w6kteqapgjhkjkcjzbw23o2igu.jpg_916739618.jpg" alt="imagen coloracion">
-
-        <h2>TRATAMIENTOS PARA TU CABELLO</h2>
-        <p>Keratina, Brillo, Hidratación, Nutrición, Reparación y Reconstrucción.</p>
-        <a href="#" class="ver-mas">MÁS INFORMACION</a>
-        <img src="https://cdn-0.somosmamas.com.ar/wp-content/uploads/2018/12/alisado-plastificado-bioextreme-1-1024x863.jpg" alt="imagen alisado">
-    
+                    <div >
+                        <div class="card text-center">
+                            <img src="https://i.pinimg.com/222x/97/56/19/97561927ff9e2a9e7bd7a9e1a407ddf5.jpg" class="card-img-top" alt="imagen coloracion de cabello">
+                            <div class="card-body">
+                              <h5 class="card-title">Coloracion</h5>
+                              <p class="card-text">El servicio de color es un universo infinito dentro de nuestro salón. Te asesoramos de una manera minuciosa para poder aconsejarte sobre qué es lo que tu cabello necesita.</p>
+                              <a href="#" class="btn btn-primary text-center">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -68,6 +90,6 @@
             </ul>
         </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
